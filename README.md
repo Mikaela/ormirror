@@ -1,21 +1,19 @@
----
-layout: null
-permalink: /or/gist.html
-redirect_from:
-  - /r/ormirror.html
-  - /r/0ormirror.html
-sitemap: false
----
+# Somewhat curated Onion Service list
+
+This repository doubles as mikaela.github.io/or/ for easier to remember
+links.
+
+The onions in this repository aren't meant to be clickable, but
+copy-pasteable.
+
+## Mirrors
 
 * https://gitea.blesmrt.net/mikaela/ormirror
 * https://github.com/mikaela/ormirror
 * https://gitlab.com/mikaela/ormirror
 * https://git.com.de/mikaela/ormirror & http://gitea.qzzf2qcfbhievvs5nzkccuwddroipy62qjocqtmgcgh75vd6w57m7yad.onion/Mikaela/ormirror
 
-Mirror of this directory for easier cloning without all the irrelevant
-history.
-
-* * * * *
+## See also
 
 More onions, especially for IRC can be found from my `torrc-client`
 
