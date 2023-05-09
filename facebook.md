@@ -8,4 +8,4 @@ sitemap: false
 https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 
 Proof: https://www.facebook.com/facebookcorewwwi/posts/3727741430665883
-       https://www.facebook.com/onion-service
+https://www.facebook.com/onion-service
