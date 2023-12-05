@@ -1,7 +1,9 @@
 # Somewhat curated Onion Service list
 
-This repository doubles as mikaela.github.io/or/ for easier to remember
-links.
+This repository began as a manual copy of mikaela.github.io/or/ with less
+git history for use with cloning on TAILS and similar for offline reference
+although it's also available through the aforementioned address as a
+submodule.
 
 The onions in this repository aren't meant to be clickable, but
 copy-pasteable.
