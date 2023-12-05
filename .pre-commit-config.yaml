@@ -1,31 +1,53 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.ci for more information
 ci:
-  # Forĝejo/Gitea mirrors will autoclose pull requests. This should decrease
-  # the frequency of unnecessary PRs.
-  # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
+
+# Use pypy3 for the Python hooks
+default_language_version:
+  python: pypy3
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
+      - id: trailing-whitespace
+        args: ["--markdown-linebreak-ext", "md,markdown"]
+        exclude_types: [svg, tsv]
+      - id: end-of-file-fixer
+      - id: check-yaml
       - id: check-added-large-files
       - id: check-case-conflict
-      - id: check-executables-have-shebangs
-      - id: check-shebang-scripts-are-executable
+      - id: check-merge-conflict
       - id: destroyed-symlinks
       - id: detect-private-key
-      - id: end-of-file-fixer
       - id: fix-byte-order-marker
-      - id: trailing-whitespace
-        exclude_types: [markdown]
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+        args: [--fix=auto]
+
+  - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
+    rev: v1.6.1
+    hooks:
+      - id: check-pre-commit-ci-config
+
+  - repo: https://github.com/thlorenz/doctoc
+    rev: v2.2.0
+    hooks:
+      - id: doctoc
+        args: [--update-only, --notitle]
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.0.0-alpha.9-for-vscode"
+    rev: "v4.0.0-alpha.3"
     hooks:
       - id: prettier
+        additional_dependencies: [
+            # https://www.npmjs.com/package/prettier
+            "prettier@3.1.0",
+          ]
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "2.7.1"
+    rev: "2.7.3"
     hooks:
       - id: editorconfig-checker
         alias: ec
