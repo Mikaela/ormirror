@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/pirateirc.html
 sitemap: false
 ---

@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/mullvad.html
 sitemap: false
 ---

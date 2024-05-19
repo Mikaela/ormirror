@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/thepiratebay.html
 redirect_from: /or/tpb.html
 sitemap: false

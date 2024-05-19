@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/propublica.html
 sitemap: false
 ---

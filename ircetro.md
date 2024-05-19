@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/ircetro.html
 sitemap: false
 ---

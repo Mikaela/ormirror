@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/matttraudt.html
 redirect_from: /or/matt.html
 sitemap: false

@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/cloudflaredns.html
 sitemap: false
 ---

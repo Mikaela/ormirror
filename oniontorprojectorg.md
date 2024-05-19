@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/oniontorprojectorg.html
 redirect_from: /or/tor.html
 sitemap: false

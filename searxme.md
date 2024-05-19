@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/searxme.html
 redirect_from: /or/searx.html
 sitemap: false

@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/suprbay.html
 sitemap: false
 ---

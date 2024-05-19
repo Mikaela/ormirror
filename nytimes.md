@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/nytimes.html
 redirect_from: /or/nyt.html
 sitemap: false

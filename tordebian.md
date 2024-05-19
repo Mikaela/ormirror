@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: mini
 permalink: /or/tordebian.html
 redirect_from:
   - /or/torubuntu.html
